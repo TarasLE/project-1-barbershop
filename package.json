@@ -1,24 +1,24 @@
 {
-  "name": "parcel-project-template",
+  "name": "project-1-barbershop",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://Sergijua06.github.io/parcel-project-template",
+  "homepage": "https://TarasLE.github.io/project-1-barbershop",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html",
-    "predeploy": "npm run build -- --public-url=/parcel-project-template/",
+    "predeploy": "npm run build -- --public-url=/project-1-barbershop/",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sergijua06/parcel-project-template"
+    "url": "git+https://github.com/TarasLE/project-1-barbershop"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Taras Lyuznyak <lyuznyaktaras@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Project8-andriyd/parcel-project-template"
+    "url": "https://github.com/TarasLE/project-1-barbershop"
   },
   "devDependencies": {
     "gh-pages": "^3.1.0",
