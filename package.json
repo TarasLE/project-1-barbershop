@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://TarasLE.github.io/project-1-barbershop",
   "scripts": {
-    "dev": "parcel src/*.html",
+    "start": "parcel src/*.html",
     "build": "parcel build src/*.html",
     "predeploy": "npm run build -- --public-url=/project-1-barbershop/",
     "deploy": "gh-pages -d dist"
@@ -21,7 +21,7 @@
     "url": "https://github.com/TarasLE/project-1-barbershop"
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0",
+    "gh-pages": "^3.2.3",
     "parcel-bundler": "^1.12.4",
     "posthtml-include": "^1.4.3",
     "sass": "^1.26.9"
